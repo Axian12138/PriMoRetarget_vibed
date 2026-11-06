@@ -1,0 +1,18 @@
+{
+  "losses": {
+    "foot_support": 7.573375694932178e-07,
+    "obstacle_clearance": 6.831476202451983e-05,
+    "interaction_eef": 0.0,
+    "joint_limits": 0.0
+  },
+  "support_frames": 399,
+  "frames": 1031,
+  "eef_enabled": true,
+  "target_xyz": [
+    0.65,
+    -4.1,
+    0.931999999523
+  ],
+  "target_source": "task_00_goal site",
+  "iterations": 1
+}

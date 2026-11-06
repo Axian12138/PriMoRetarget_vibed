@@ -1,0 +1,11 @@
+{
+  "losses": {
+    "foot_support": 7.573375694932178e-07,
+    "obstacle_clearance": 6.831476202451983e-05,
+    "joint_limits": 0.0
+  },
+  "support_frames": 399,
+  "frames": 1031,
+  "eef_enabled": false,
+  "iterations": 1
+}
