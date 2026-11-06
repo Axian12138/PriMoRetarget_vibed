@@ -10,6 +10,7 @@ dependencies = ["numpy", "scipy", "mujoco"]
 
 [project.scripts]
 primoretarget = "primoretarget.cli:main"
+primoretarget-episode = "primoretarget.episode:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

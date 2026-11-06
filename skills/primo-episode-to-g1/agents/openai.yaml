@@ -1,0 +1,4 @@
+interface:
+  display_name: "PriMo Episode → G1"
+  short_description: "Convert an aligned episode into G1 motion using PriMo"
+  default_prompt: "Use $primo-episode-to-g1 to turn this episode directory into g1_motion.npz using relative paths."

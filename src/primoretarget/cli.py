@@ -202,7 +202,7 @@ def main():
         "body_names": [k.model.body(int(i)).name for i in k.body_ids],
         "joint_names": list(k.joint_names),
         "input_fk": {"max_position_error_m": max_position_error, "max_quaternion_error": max_quaternion_error},
-        "inputs": {str(path.resolve()): sha256(path) for path in (archive, args.scene, args.robot, args.human_world)},
+        "inputs": {str(path): sha256(path) for path in (archive, args.scene, args.robot, args.human_world)},
         "visualization_started": False,
         "dynamics_verified": False,
     }
